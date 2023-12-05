@@ -2,7 +2,7 @@
   "your": "json config here",
   "name": "@davaadorj-test-orga/my-hello-world",
   "repository": "https://github.com/davaadorj-test-orga/8-ueb-publish-package.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "module to test publishing package",
   "main": "index.js",
   "scripts": {
