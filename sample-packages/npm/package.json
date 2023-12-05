@@ -1,3 +1,13 @@
 {
-  "your": "json config here"
+  "your": "json config here",
+  "name": "@davaadorj-test-orga/my-hello-world",
+  "repository": "https://github.com/davaadorj-test-orga/8-ueb-publish-package.git",
+  "version": "1.0.0",
+  "description": "module to test publishing package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
