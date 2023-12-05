@@ -36,4 +36,17 @@ npm login --scope=@NAMESPACE --auth-type=legacy --registry=https://npm.pkg.githu
 > Password: TOKEN
 
 ````
-# 
+# docker pkg
+## publish from local
+- [see doc](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
+- add env var CR_PAT - value should be the generated token
+- login - in terminal (command prompt)
+````
+cd sample-packages/docker
+echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
+````
+- build img
+- tag img
+- label img
+- push
+
